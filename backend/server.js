@@ -7,10 +7,10 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 
-// Frontend ని సర్వ్ చేయడం
+// Frontend 
 app.use(express.static(path.join(__dirname, '../frontend')));
 
 // Routes
