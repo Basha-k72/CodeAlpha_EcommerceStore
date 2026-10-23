@@ -1,3 +1,4 @@
+
 const API_URL = 'https://codealpha-ecommerce-store-4cr7.onrender.com/api';
 let isLoginMode = true;
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
