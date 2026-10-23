@@ -1,26 +1,37 @@
-# CodeAlpha Ecommerce Store
+# CodeAlpha E-commerce Store (Full Stack)
 
 A complete Full Stack E-commerce web application built during the CodeAlpha Internship.
 
-## Features
-- 🛒 Product Listings (with images)
-- 🔐 User Registration & Login (JWT Authentication)
-- 🛍️ Shopping Cart (Local Storage)
-- 👤 User Profile Page
-- 🎨 Beautiful & Responsive UI
+## 🚀 Features
+- **User Authentication:** Secure Login & Registration using JWT.
+- **Product Catalog:** 20+ Products with images, categories, and prices.
+- **Shopping Cart:** Add to cart, update quantity, and remove items.
+- **User Profile:** View user details after logging in.
+- **Responsive Design:** Works perfectly on Mobile, Tablet, and Desktop.
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (Mongoose)
-- **Authentication:** JWT, bcrypt.js
+- **Authentication:** JWT (JSON Web Tokens) & bcrypt.js
+- **Deployment:** Vercel (Frontend) & Render (Backend)
 
-## How to Run Locally
-1. Clone the repo
-2. `cd backend && npm install`
-3. Create a `.env` file with `MONGO_URI` and `PORT=5000`
-4. Run `node server.js`
-5. Open `http://localhost:5000`
+## 📂 Project Structure
+- `/backend` - Express server, routes, and MongoDB models.
+- `/frontend` - HTML, CSS, and JS files.
 
-## Author
-Sk Mahaboob Basha
+## ⚙️ How to Run Locally
+1. Clone the repository: `git clone https://github.com/Basha-k72/CodeAlpha_EcommerceStore.git`
+2. Go to backend folder: `cd backend`
+3. Install dependencies: `npm install`
+4. Create a `.env` file with `MONGO_URI` and `PORT=5000`.
+5. Start the server: `node server.js`
+6. Open `http://localhost:5000` in your browser.
+
+## 🌐 Live Demo
+- **Live Website:** (https://codealphaecommercestore-frontend-j6w160ccf-code-alpha10.vercel.app/)
+- **Live API:** https://codealpha-ecommerce-store-4cr7.onrender.com/api/products
+
+## 👨‍💻 Author
+**Sk Mahaboob Basha**
+- GitHub: [@Basha-k72](https://github.com/Basha-k72)
